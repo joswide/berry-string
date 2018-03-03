@@ -1,0 +1,21 @@
+{
+    "name": "joswide/berry-string",
+    "description": "Strings for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose",
+            "email": "hola@joswide.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "joswide/berry-slug": ">=0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BerryString\\": "src"
+        }
+    }
+}

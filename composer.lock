@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "fafc91d6605320c5ae88eb5753a3a1fe",
+    "packages": [
+        {
+            "name": "joswide/berry-slug",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joswide/berry-slug.git",
+                "reference": "7a8e101c77d1968092444f110e8e4fe1c79a19a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joswide/berry-slug/zipball/7a8e101c77d1968092444f110e8e4fe1c79a19a5",
+                "reference": "7a8e101c77d1968092444f110e8e4fe1c79a19a5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BerrySlug\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose",
+                    "email": "hola@joswide.com"
+                }
+            ],
+            "description": "Simple Slugs generator for PHP",
+            "keywords": [
+                "slug"
+            ],
+            "time": "2018-03-03T19:50:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
